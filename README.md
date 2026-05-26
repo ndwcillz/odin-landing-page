@@ -1,0 +1,1 @@
+This project is the cumulative project for the Flexbox section of The Odin Project Foundations course.
