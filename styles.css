@@ -156,4 +156,32 @@ h2 {
     margin-bottom: 20px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    background-color: #E5E7EB;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-cite {
+    display: flex;
+    justify-content: end;
+
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 18px;
+}
+
 
