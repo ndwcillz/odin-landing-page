@@ -184,4 +184,57 @@ h2 {
     font-size: 18px;
 }
 
+.cta-button {
+    display: flex;
+    border: 3px solid #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    
+    flex: 0 0 auto;
+}
+
+
+.cta {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cta-content {
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding: 40px 130px 40px 130px;
+
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 22px;
+}
+
+.cta-p {
+    color: #F9FAF8;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+}
 
