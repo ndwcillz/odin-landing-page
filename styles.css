@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-a, p {
+a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -93,8 +93,67 @@ button {
     border-radius: 16px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+    margin-bottom: 120px;
+
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+
+    justify-content: space-between;
+}
+
+.lakes, .peaks, .rivers, .snow {
+    max-width: 170px;
+    
+}
+
+.info-img {
+
+    width: 100%;
+    height: 100%;
+    width: 170px;
+    height: 170px;
+
+    aspect-ratio: 1/1;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+
+    border: 5px solid #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+    text-align: center;
+}
 
 
+.hero-p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.info-p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-header {
+    margin-bottom: 20px;
+}
 
 
